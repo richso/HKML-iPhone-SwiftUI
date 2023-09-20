@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import WebKit
 
 @main
 struct HkmlAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
         }
     }
 }
